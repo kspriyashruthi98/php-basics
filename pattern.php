@@ -1,7 +1,6 @@
 <?php
-$m=5;
-$n=6;
-
+$m=readline("enter m value:");
+$n=readline("enter n value:")
 $value=1;
 for($i=1;$i<=$n;$i++)
 
@@ -13,6 +12,6 @@ echo "$value";
 $value=$value+$n;
 }
 $value=$i+1;
-echo"<br>";
+echo"\n";
 }
 ?>

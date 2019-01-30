@@ -1,30 +1,15 @@
 
-
-<html>
-<body>
 <?php
-$s1="Priya";
-$s2="pRiYa";
-$s3="Word";
-$s4="Worda";
+$s1=readline("enter string1:");
+$s2=readline("enter string2: ");
 
 
 if(strcasecmp($s1,$s2)==0)
 {
-echo "true<br>";
+echo "true";
 }
 else
 {
-echo"false<br>";
-}
-if(strcasecmp($s3,$s4)==0)
-{
-echo "true<br>";
-}
-else
-{
-echo"false<br>";
+echo"false";
 }
 ?>
-</body>
-</html>
